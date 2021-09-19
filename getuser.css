@@ -1,0 +1,26 @@
+.sized{
+    width: 300px;
+    height: auto;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.load{
+    color: bisque;
+    text-decoration: bold;
+}
+.name{
+    text-transform: capitalize;
+    font-size: 30px;
+    
+    color: darkblue;
+}
+.bgm{
+    box-shadow: coral;
+    width: 500px;
+    height: auto;
+}
+.p1{
+    color: black;
+    size: 10px;
+    text-align: end;
+}
