@@ -4,9 +4,11 @@
     padding-left: 10px;
     border-radius: 2px;
 }
-.load{
+.Load{
     color: bisque;
     text-decoration: bold;
+     text-align: center;
+     size: 30px;
 }
 .name{
     text-transform: capitalize;
