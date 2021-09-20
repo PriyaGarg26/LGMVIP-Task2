@@ -20,7 +20,7 @@ const Getuser=({loading,Getuser})=>{
   (
     <div>
       {Getuser.map(curelem=>
-      <div className="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-3 bgm" key={curelem.id}>{
+      <div className="tc bg-light-salmon dib br3 pa3 ma2 grow bw2 shadow-3 bgm" key={curelem.id}>{
         console.log(curelem)
       }
       <img src={curelem.avatar} alt={curelem.avatar} className="sized"></img>
