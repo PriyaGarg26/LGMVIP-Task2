@@ -2,6 +2,7 @@ import React from 'react';
 import './getuser.css';
 import RingLoader from "react-spinners/RingLoader";
 import {css} from '@emotion/react';
+import 'tachyons';
 
 const override = css`
   display: block;
@@ -12,7 +13,7 @@ const override = css`
 const Getuser=({loading,Getuser})=>{
   return loading?(
     <div>
-     <RingLoader color={"#9600B6"} loading={loading} css={override} size={60} /> 
+     <RingLoader color={"#9600B6"} loading={loading} css={override} size={150} /> 
      <h2 className="Load">Loading Users</h2>
     </div>
   ):
